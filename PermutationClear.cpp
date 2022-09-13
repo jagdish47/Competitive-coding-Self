@@ -37,14 +37,7 @@ int main(){
 		
 		std::vector<int> v;
 		
-		for(int i = 0; i < size2; i++){
-			
-			for(int j = 0; j < size1; j++){
-				if(arr2[i] == arr[j]){
-					arr.pop();
-				}
-			}
-		}
+		
 		
 		for(int l = 0; l < size2; l++){
 			cout<<arr[l];
