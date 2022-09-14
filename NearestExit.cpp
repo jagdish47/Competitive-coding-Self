@@ -7,20 +7,20 @@ int main(){
 		freopen("output.txt", "w", stdout);
 	#endif
 		
-
 	int tc;
 	cin>>tc;
 	
-	
 	while(tc--){
-		
-		int len;
-		cin>>len;
-		
-		int str;
-		cin>>str;
+		int x;
+		cin>>x;
 		
 		
+		if(x >= 1 && x <= 50){
+			cout<<"LEFT"<<"\n";
+		}
+		else{
+			cout<<"RIGHT"<<"\n";
+		}
 	}		
 		
 		

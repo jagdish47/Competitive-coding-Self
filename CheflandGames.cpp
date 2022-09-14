@@ -6,23 +6,21 @@ int main(){
 		freopen("input.txt", "r", stdin);
 		freopen("output.txt", "w", stdout);
 	#endif
-		
 
 	int tc;
 	cin>>tc;
 	
-	
 	while(tc--){
+		int R1, R2, R3, R4;
+		cin>>R1>>R2>>R3>>R4;
 		
-		int len;
-		cin>>len;
-		
-		int str;
-		cin>>str;
-		
-		
+		if(R1 == 0 && R2 == 0 && R3 == 0 && R4 == 0){
+			cout<<"IN"<<"\n";
+		}
+		else{
+			cout<<"OUT"<<"\n";
+		}
 	}		
-		
 		
 	return 0;
 }

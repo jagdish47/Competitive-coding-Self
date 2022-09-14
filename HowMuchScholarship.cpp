@@ -7,22 +7,21 @@ int main(){
 		freopen("output.txt", "w", stdout);
 	#endif
 		
-
-	int tc;
-	cin>>tc;
+	int R;
+	cin>>R;
 	
 	
-	while(tc--){
-		
-		int len;
-		cin>>len;
-		
-		int str;
-		cin>>str;
-		
-		
-	}		
-		
-		
+	if(R >= 1 && R <= 50){
+		cout<<"100"<<"\n";
+	}
+	else if(R > 50 && R <= 100){
+		cout<<"50"<<"\n";	
+	}
+	else{
+		cout<<"0"<<"\n";
+	}
+	
 	return 0;
+	
+	
 }
