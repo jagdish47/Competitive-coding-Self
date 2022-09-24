@@ -18,45 +18,47 @@ int main(){
 		int c;
 		cin>>c;
 		
-		int arr[len];
+		vector<int> arr;
 		
 		for(int i = 0; i < len; i++){
-			cin>>arr[i];
-		}
-	
-		std::vector<int> v;
-		
-		for(int i = 0; i < len; i++){
-			if(arr[i] == 0){
-				v.push_back(null);
-			}
-			else{
-				v.push_back(arr[i]);
-			}
+			cin>>arr.push_back(arr(i));
 		}
 		
 		
 	
-		long long max = 0;
+	// 	std::vector<int> v;
+		
+	// 	for(int i = 0; i < len; i++){
+	// 		if(arr[i] == 0){
+	// 			v.push_back();
+	// 		}
+	// 		else{
+	// 			v.push_back(arr[i]);
+	// 		}
+	// 	}
+		
+		
 	
-		for(int i = 0; i < v.size(); i++){
+	// 	long long max = 0;
+	
+	// 	for(int i = 0; i < v.size(); i++){
 			
-			long long sum = 0;
+	// 		long long sum = 0;
 
-			for(int j = i; j < c; j++){
-				sum += v[j];
-			}
+	// 		for(int j = i; j < c; j++){
+	// 			sum += v[j];
+	// 		}
 			
-			if(max < sum){
-				max = sum;
-			}
-			c++;
-		}
+	// 		if(max < sum){
+	// 			max = sum;
+	// 		}
+	// 		c++;
+	// 	}
 		
-		cout<<max<<"\n";
+	// 	cout<<max<<"\n";
 		
 			
-	}		
+	 }		
 	
 	return 0;
 }
