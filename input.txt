@@ -1,5 +1,9 @@
 4
-aeiou
-abxy
-aebcdefghij
-abcdeeafg
+2
+10
+2
+11
+3
+101
+3
+110
