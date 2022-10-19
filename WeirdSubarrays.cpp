@@ -10,28 +10,23 @@ int main(){
 	int tc;
 	cin>>tc;
 	
+	
 	while(tc--){
-		int n, k;
-		cin>>n>>k;
+		
+		int n;
+		cin>>n;
 		
 		int arr[n];
 		for(int i = 0; i < n; i++){
-			cin>>arr[i];
+			int val;
+			cin>>val;
+			arr[i] = val;
 		}
-		
 		
 		for(int i = 0; i < n; i++){
-			if(arr[i] < k){
-				cout<<"No"<<"\n";
-				break;
-			}
-			else{
-				cout<<"Yes"<<"\n";
-				break;
-			}
+			cout<<arr[i] + " ";
 		}
-		
+		cout<<"\n";
 	}
-	
 	return 0;
 }

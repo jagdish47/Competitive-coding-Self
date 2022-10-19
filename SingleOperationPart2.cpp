@@ -8,19 +8,23 @@ void singleOperation() {
    cin>>in;
    cin>>str;
    
-   for(int i = 0; i < in; i++){
+   for(int i = 1; i < in; i++){
       if(str[i] == '1'){
          cout<<i<<"\n";
          return;
       }
-   cout<<in<<"\n";
    }
+   cout<<in<<"\n";
 }
 
 
 int main() {
-   int testcase;
-   cin >> testcase;
-   while(testcase--) 
-   singleOperation();
+   int tc;
+   cin>>tc;
+   
+   while(tc--){
+      
+      singleOperation();
+      
+   }
 }
